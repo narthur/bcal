@@ -159,7 +159,8 @@ export const calendar = functions.https.onRequest(async (request, response) => {
       start: new Date(g.losedate * 1000),
       end: new Date(g.losedate * 1000),
       summary: `${g.slug}: ${g.limsum}`,
-      description: g.title,
+      description: `${g.title}\n${g.fineprint}`,
+      url: `https://beeminder.com/${user}/${g.slug}`,
     });
   });
 
