@@ -1,8 +1,8 @@
 # bcal
 
-## Usage
-
 Beeminder iCal generator.
+
+## Usage
 
 Use the following URL structure to access your calendar:
 
